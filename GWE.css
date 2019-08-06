@@ -1,0 +1,27 @@
+body {
+  background-color: #B8D7E8;
+}
+
+.nav{
+  background-color: lavender;
+  overflow: hidden;
+}
+
+.nav a{
+  float: left;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav a:hover{
+  background-color: lavender;
+  color: white;
+}
+
+
+.nav a.active {
+  background-color: white;
+  color: black;
+}
