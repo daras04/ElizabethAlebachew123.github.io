@@ -1,10 +1,14 @@
 body {
   background-color: #B8D7E8;
+  margin: 1;
+  font-family: lucida;
 }
+
 
 .nav{
   background-color: lavender;
   overflow: hidden;
+  max-width: 100%;
 }
 
 .nav a{
@@ -13,19 +17,24 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
+  border-style: inset;
+  border-color: lavender;
+}
+.nav.inset{
+  border-style: inset;
 }
 
 .nav a:hover{
-  background-color: black;
-  color: white;
-}
-
-.nav a.active {
-  background-color: white;
+  background-color: thistle;
   color: black;
 }
 
-/* stuff for gweAuthor */
+/* stuff for gweAuthor
+.nav a.active {
+  background-color: white;
+  color: black;
+}*/
+
 .row{
   float: left;
   width: 30%;
@@ -78,4 +87,3 @@ body {
   background-color: black;
   color: white;
 }
-
