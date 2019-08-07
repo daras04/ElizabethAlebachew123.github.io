@@ -4,6 +4,9 @@ body {
   font-family: lucida;
 }
 
+h1 {
+  background-image: url("https://t3.ftcdn.net/jpg/02/12/97/66/240_F_212976604_DSmf6MfRkvYjSIXLlOyd0ptk1eGsoqRs.jpg");
+}
 
 .nav{
   background-color: lavender;
