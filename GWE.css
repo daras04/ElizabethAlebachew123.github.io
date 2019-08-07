@@ -1,5 +1,7 @@
 body {
   background-color: #B8D7E8;
+  margin: 0;
+  font-family: times;
 }
 
 .nav{
