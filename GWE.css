@@ -1,11 +1,7 @@
 body {
-  background-color: #B8D7E8;
-  margin: 1;
+  background-color: #D9F0FB;
+  margin: 0;
   font-family: lucida;
-}
-
-h1 {
-  background-image: url("https://t3.ftcdn.net/jpg/02/12/97/66/240_F_212976604_DSmf6MfRkvYjSIXLlOyd0ptk1eGsoqRs.jpg");
 }
 
 .nav{
@@ -14,21 +10,34 @@ h1 {
   max-width: 100%;
 }
 
+.header{
+  float: left;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.heart{
+  float:left;
+}
+
 .nav a{
   float: left;
   color: black;
   padding: 14px 16px;
   text-decoration: none;
+  font-family:monospace;
   font-size: 20px;
-  border-style: inset;
-  border-color: lavender;
+  text-align: center;
+  width: 16%;
+  
 }
 .nav.inset{
   border-style: inset;
 }
 
 .nav a:hover{
-  background-color: thistle;
+  background-color:CCA4D0 ;
   color: black;
 }
 
@@ -52,6 +61,9 @@ h1 {
 
 .card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-style:ridge;
+  border-color: black;
+  text-align: center;
 }
 
 .container{
