@@ -1,7 +1,21 @@
 body {
-  background-color: white;
+  background-color: #DAF4FE;
   margin-right: 10px;
   font-family: lucida;
+
+}
+
+h6{
+background-color:plum;
+color: white;
+margin-top:5px;
+margin-bottom:5px;
+font-family: fantasy;
+font-size: 25px;
+}
+
+p{
+  font-family:serif;
 }
 
 .nav{
@@ -22,30 +36,46 @@ body {
   float:left;
 }
 
+.heartBackground{
+  background-image: url("https://i.pinimg.com/originals/19/39/bf/1939bfa036f576c8168edfd9c35fac70.jpg");
+}
+
+
+.p1h{
+  background-color: yellow;
+}
+
+/*img{
+  border-radius:50%;
+}*/
+
 .nav a{
   float: left;
   color: black;
   padding: 14px 16px;
   text-decoration: none;
-  font-family:monospace;
+  font-family: 'Barlow Condensed', sans-serif;;
   font-size: 20px;
   text-align: center;
   width: 16%;
-  
+  margin-top: 15px;
 }
 .nav.inset{
   border-style: inset;
 }
 
 .nav a:hover{
-  background-color:#CCA4D0 ;
+  background-color:thistle;
   color: white;
 }
 
+
+
 .positivity{
-  border-radius:50%;
-  margin-left:10px
+  border-radius: 50%;
+  margin-left: 10px;
 }
+
 
 /* stuff for gweAuthor
 .nav a.active {
@@ -67,7 +97,7 @@ body {
 
 .card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
-  border-style:ridge;
+  border-style: ridge;
   border-color: black;
   border-width: 1px;
   text-align: center;
@@ -89,4 +119,36 @@ body {
 .title{
   color: black;
   font-family: arial;
+}
+.typewriter h1 {
+  font-family: monospace; /* Web-safe typewriter-like font */
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(30, end),
+    blinking-cursor .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blinking-cursor {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+.Unrealistic{
+  margin-right: 100px;
+}
+
+.Famous {
+  font-size: 50px;
+  font-family: fantasy;
 }
