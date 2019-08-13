@@ -40,6 +40,10 @@ p{
   background-image: url("https://i.pinimg.com/originals/19/39/bf/1939bfa036f576c8168edfd9c35fac70.jpg");
 }
 
+.Events{
+    background-image: url("http://ewint.org/wp-content/uploads/2014/01/weavingimage.png");
+    background-repeat: no-repeat;
+}
 
 .p1h{
   background-color: yellow;
@@ -57,8 +61,8 @@ p{
   font-family: 'Barlow Condensed', sans-serif;;
   font-size: 20px;
   text-align: center;
-  width: 16%;
-  margin-top: 15px;
+  width: 12%;
+  margin-top: 5px;
 }
 .nav.inset{
   border-style: inset;
@@ -96,10 +100,10 @@ p{
 }
 
 .card{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
-  border-style: ridge;
-  border-color: black;
-  border-width: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.75);
+  border-style: inset;
+  border-color: lightpink;
+  border-width: 2px;
   text-align: center;
 }
 
@@ -151,4 +155,115 @@ p{
 .Famous {
   font-size: 50px;
   font-family: fantasy;
+}
+
+
+html,body{
+  height:100%;
+}
+body{
+  text-align:center;
+
+}
+button{
+  background:lightpink;
+  color:white;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+button:hover{
+  background:white;
+  color:lightpink;
+}
+button:before,button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: lightpink;
+  transition:400ms ease all;
+}
+button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+.fiveBody {
+  position: relative;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fiveBody:hover .image {
+  opacity: 0.3;
+}
+
+.fiveBody:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: pink;
+  color: white;
+  font-size: 40px;
+  padding: 16px 32px;
+}
+
+footer{
+  height:60px;
+  line-height: 40px;
+  background: #756789;
+  clear: both;
+  padding: 10px;
+  margin-top: 60px;
+
+}
+
+footer li{
+  list-style-type: none;
+  float:left;
+  margin-right: 60px;
+  font-size: 13px;
+  color: white;
+}
+
+footer ul{
+  padding-left:350px;
+
+}
+
+footer a{
+
 }
